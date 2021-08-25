@@ -1,27 +1,26 @@
-#include <iostream>
 #include "stats.h"
+#include <algorithm>
+#include <iostream>
 
 /*
  *  Main function
  */
 int main() {
+	int x;
+	int y;
+	int z;
 
-  int x;
-  int y;
-  int z;
+	// Set the precision for cout
+	std::cout.precision(2);
 
-  // Set the precision for cout
-  std::cout.precision(2);
+	// Get Three integers
+	std::cin >> x >> y >> z;
 
-  // Get Three integers
-  std::cin >> x >> y >> z;
-  
-  // Output Average (Show in fixed point)
-  std::cout << "Average: " << std::fixed << average(x, y, z) << std::endl;
+	// Output Average (Show in fixed point)
+	std::cout << "Average: " << std::fixed << average(x, y, z) << std::endl;
 
-  // Finish 
-  // Output Median, Min, Max
+	// Finish
+	// Output Median, Min, Max
 
-  return 0;
+	return 0;
 }
-
