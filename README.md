@@ -24,3 +24,7 @@ You can use the tests to confirm your implementation is correct
 
 # Submission
 Once complete submit the project for final grading and assesment. 
+
+# Git Repo 
+Clone the following below to get started
+https://github.com/RIT-EEEE346/Homework-1.git
