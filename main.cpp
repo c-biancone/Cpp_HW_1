@@ -24,7 +24,7 @@ int main() {
 	std::cout << "Average: " << std::fixed << average(x, y, z) << std::endl;
 
     // Output Median (Show in fixed point)
-//    std::cout << "Median: " << std::fixed << median(x, y, z) << std::endl;
+    std::cout << "Median: " << std::fixed << median(x, y, z) << std::endl;
 
     // Output Min (Show in fixed point)
     std::cout << "Min: " << std::fixed << min(x, y, z) << std::endl;

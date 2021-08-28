@@ -10,28 +10,31 @@ double average(int x, int y, int z)
     // divide sum by number of inputs
     return (sum / 3);
 }
-/*
+
 int median(int x, int y, int z)
 {
-    if (x < y) {
-        if (y<z) {
+    if (x<y) {          // 2 comparisons (lucky)
+        if (y<z)            // order is x, y, z
             return y;
-        } else if (x<z) {
-            return z;
-        } else {
-            return x;
+        else {          // 3 comparisons
+            if (x < z)      // order is x, z, y
+                return z;
+            else            // order is z, x, y
+                return x;
         }
     } else {
-        if (z>y) {
+        if (z < y)        // 2 comparisons (lucky) // order is z, y, x
             return y;
-        } else if (z>x) {
-            return x;
-        } else {
-            return z;
+        else
+        {          // 3 comparisons
+            if (z > x)      // order is y, x, z
+                return x;
+            else            // order is y, z, x
+                return z;
         }
     }
 }
-*/
+
 int min(int x, int y, int z)
 {
     // temp variable for comparison
