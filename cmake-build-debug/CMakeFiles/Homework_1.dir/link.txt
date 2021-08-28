@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g -Wl,--enable-auto-import CMakeFiles/Homework_1.dir/main.cpp.o CMakeFiles/Homework_1.dir/stats.cpp.o -o Homework_1.exe -Wl,--out-implib,libHomework_1.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

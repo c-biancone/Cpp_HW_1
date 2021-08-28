@@ -1,7 +1,7 @@
 /* 
  * File:        stats.h
- * Author:      
- * Date:        
+ * Author:      Chris Biancone
+ * Date:        08-28-2021
  * 
  * Description: Function prototypes of simple statistical functions
  */
