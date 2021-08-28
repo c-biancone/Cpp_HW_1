@@ -53,10 +53,10 @@ RM = /cygdrive/c/Users/Chris/AppData/Local/JetBrains/CLion2021.2/cygwin_cmake/bi
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/cygdrive/d/Documents/RIT/C++/HW 1/Homework-1"
+CMAKE_SOURCE_DIR = /cygdrive/d/Documents/RIT/C++/Homework-1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/cygdrive/d/Documents/RIT/C++/HW 1/Homework-1/cmake-build-debug"
+CMAKE_BINARY_DIR = /cygdrive/d/Documents/RIT/C++/Homework-1/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Homework_1.dir/depend.make
@@ -68,29 +68,29 @@ include CMakeFiles/Homework_1.dir/flags.make
 
 CMakeFiles/Homework_1.dir/main.cpp.o: CMakeFiles/Homework_1.dir/flags.make
 CMakeFiles/Homework_1.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/d/Documents/RIT/C++/HW 1/Homework-1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Homework_1.dir/main.cpp.o"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Homework_1.dir/main.cpp.o -c "/cygdrive/d/Documents/RIT/C++/HW 1/Homework-1/main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/d/Documents/RIT/C++/Homework-1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Homework_1.dir/main.cpp.o"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Homework_1.dir/main.cpp.o -c /cygdrive/d/Documents/RIT/C++/Homework-1/main.cpp
 
 CMakeFiles/Homework_1.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Homework_1.dir/main.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/cygdrive/d/Documents/RIT/C++/HW 1/Homework-1/main.cpp" > CMakeFiles/Homework_1.dir/main.cpp.i
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/d/Documents/RIT/C++/Homework-1/main.cpp > CMakeFiles/Homework_1.dir/main.cpp.i
 
 CMakeFiles/Homework_1.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Homework_1.dir/main.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/cygdrive/d/Documents/RIT/C++/HW 1/Homework-1/main.cpp" -o CMakeFiles/Homework_1.dir/main.cpp.s
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/d/Documents/RIT/C++/Homework-1/main.cpp -o CMakeFiles/Homework_1.dir/main.cpp.s
 
 CMakeFiles/Homework_1.dir/stats.cpp.o: CMakeFiles/Homework_1.dir/flags.make
 CMakeFiles/Homework_1.dir/stats.cpp.o: ../stats.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/d/Documents/RIT/C++/HW 1/Homework-1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Homework_1.dir/stats.cpp.o"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Homework_1.dir/stats.cpp.o -c "/cygdrive/d/Documents/RIT/C++/HW 1/Homework-1/stats.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/d/Documents/RIT/C++/Homework-1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Homework_1.dir/stats.cpp.o"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Homework_1.dir/stats.cpp.o -c /cygdrive/d/Documents/RIT/C++/Homework-1/stats.cpp
 
 CMakeFiles/Homework_1.dir/stats.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Homework_1.dir/stats.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/cygdrive/d/Documents/RIT/C++/HW 1/Homework-1/stats.cpp" > CMakeFiles/Homework_1.dir/stats.cpp.i
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/d/Documents/RIT/C++/Homework-1/stats.cpp > CMakeFiles/Homework_1.dir/stats.cpp.i
 
 CMakeFiles/Homework_1.dir/stats.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Homework_1.dir/stats.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/cygdrive/d/Documents/RIT/C++/HW 1/Homework-1/stats.cpp" -o CMakeFiles/Homework_1.dir/stats.cpp.s
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/d/Documents/RIT/C++/Homework-1/stats.cpp -o CMakeFiles/Homework_1.dir/stats.cpp.s
 
 # Object files for target Homework_1
 Homework_1_OBJECTS = \
@@ -104,7 +104,7 @@ Homework_1.exe: CMakeFiles/Homework_1.dir/main.cpp.o
 Homework_1.exe: CMakeFiles/Homework_1.dir/stats.cpp.o
 Homework_1.exe: CMakeFiles/Homework_1.dir/build.make
 Homework_1.exe: CMakeFiles/Homework_1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/cygdrive/d/Documents/RIT/C++/HW 1/Homework-1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Homework_1.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/d/Documents/RIT/C++/Homework-1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Homework_1.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Homework_1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -116,6 +116,6 @@ CMakeFiles/Homework_1.dir/clean:
 .PHONY : CMakeFiles/Homework_1.dir/clean
 
 CMakeFiles/Homework_1.dir/depend:
-	cd "/cygdrive/d/Documents/RIT/C++/HW 1/Homework-1/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/cygdrive/d/Documents/RIT/C++/HW 1/Homework-1" "/cygdrive/d/Documents/RIT/C++/HW 1/Homework-1" "/cygdrive/d/Documents/RIT/C++/HW 1/Homework-1/cmake-build-debug" "/cygdrive/d/Documents/RIT/C++/HW 1/Homework-1/cmake-build-debug" "/cygdrive/d/Documents/RIT/C++/HW 1/Homework-1/cmake-build-debug/CMakeFiles/Homework_1.dir/DependInfo.cmake" --color=$(COLOR)
+	cd /cygdrive/d/Documents/RIT/C++/Homework-1/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /cygdrive/d/Documents/RIT/C++/Homework-1 /cygdrive/d/Documents/RIT/C++/Homework-1 /cygdrive/d/Documents/RIT/C++/Homework-1/cmake-build-debug /cygdrive/d/Documents/RIT/C++/Homework-1/cmake-build-debug /cygdrive/d/Documents/RIT/C++/Homework-1/cmake-build-debug/CMakeFiles/Homework_1.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Homework_1.dir/depend
 

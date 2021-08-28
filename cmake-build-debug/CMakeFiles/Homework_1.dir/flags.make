@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++.exe
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I"/cygdrive/d/Documents/RIT/C++/HW 1/Homework-1/."
+CXX_INCLUDES = -I/cygdrive/d/Documents/RIT/C++/Homework-1/.
 
 CXX_FLAGS = -g -std=gnu++14
 

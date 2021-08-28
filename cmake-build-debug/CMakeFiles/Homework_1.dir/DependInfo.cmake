@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/cygdrive/d/Documents/RIT/C++/HW 1/Homework-1/main.cpp" "/cygdrive/d/Documents/RIT/C++/HW 1/Homework-1/cmake-build-debug/CMakeFiles/Homework_1.dir/main.cpp.o"
-  "/cygdrive/d/Documents/RIT/C++/HW 1/Homework-1/stats.cpp" "/cygdrive/d/Documents/RIT/C++/HW 1/Homework-1/cmake-build-debug/CMakeFiles/Homework_1.dir/stats.cpp.o"
+  "/cygdrive/d/Documents/RIT/C++/Homework-1/main.cpp" "/cygdrive/d/Documents/RIT/C++/Homework-1/cmake-build-debug/CMakeFiles/Homework_1.dir/main.cpp.o"
+  "/cygdrive/d/Documents/RIT/C++/Homework-1/stats.cpp" "/cygdrive/d/Documents/RIT/C++/Homework-1/cmake-build-debug/CMakeFiles/Homework_1.dir/stats.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

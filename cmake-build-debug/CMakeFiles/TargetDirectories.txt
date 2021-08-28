@@ -1,3 +1,3 @@
-/cygdrive/d/Documents/RIT/C++/HW 1/Homework-1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/cygdrive/d/Documents/RIT/C++/HW 1/Homework-1/cmake-build-debug/CMakeFiles/Homework_1.dir
-/cygdrive/d/Documents/RIT/C++/HW 1/Homework-1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/cygdrive/d/Documents/RIT/C++/Homework-1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/cygdrive/d/Documents/RIT/C++/Homework-1/cmake-build-debug/CMakeFiles/Homework_1.dir
+/cygdrive/d/Documents/RIT/C++/Homework-1/cmake-build-debug/CMakeFiles/edit_cache.dir
