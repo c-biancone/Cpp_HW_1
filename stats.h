@@ -31,6 +31,8 @@ double average(int x, int y, int z);
  */
 int median(int x, int y, int z, int* sortedMin, int* sortedMax);
 
+//*************** Deprecated declarations of min and max functions for reference *****************//
+
 /**
  * 
  * max - max of 3 integers

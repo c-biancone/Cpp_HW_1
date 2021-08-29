@@ -13,8 +13,8 @@ double average(int x, int y, int z)
 
 int median(int x, int y, int z, int* sortedMin, int* sortedMax)
 {
-    if (x<y) {  // 2 comparisons (lucky)
-        if (y<z)
+    if (x < y) {  // 2 comparisons (lucky)
+        if (y < z)
         { // order is x, y, z
             *sortedMin = x;
             *sortedMax = z;
@@ -59,6 +59,8 @@ int median(int x, int y, int z, int* sortedMin, int* sortedMax)
     }
 }
 
+//*************** Deprecated definitions of min and max functions for reference ******************//
+
 int min(int x, int y, int z)
 {
     // temp variable for comparison
@@ -66,9 +68,9 @@ int min(int x, int y, int z)
 
     // compare
     x<y ? tmp=x : tmp=y;
-    if (tmp>z)
+    if (tmp > z)
     {
-        tmp=z;
+        tmp = z;
     }
 
     return tmp;
@@ -81,9 +83,9 @@ int max(int x, int y, int z)
 
     // compare
     x>y ? tmp=x : tmp=y;
-    if (tmp<z)
+    if (tmp < z)
     {
-        tmp=z;
+        tmp = z;
     }
 
     return tmp;
