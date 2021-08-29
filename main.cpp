@@ -1,5 +1,5 @@
 #include "stats.h"
-#include <algorithm>
+// #include <algorithm> // unnecessary here
 #include <iostream>
 
 /*
