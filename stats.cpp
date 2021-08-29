@@ -5,10 +5,10 @@
 
 double average(int x, int y, int z)
 {
-    int sum = x + y + z;
+    double sum = x + y + z;
 
     // divide sum by number of inputs
-    return (sum / 3);
+    return (double)(sum / 3.0);
 }
 
 int median(int x, int y, int z, int* sortedMin, int* sortedMax)

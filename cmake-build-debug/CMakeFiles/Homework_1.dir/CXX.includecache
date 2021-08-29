@@ -6,14 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/cygdrive/d/Documents/RIT/C++/Homework-1/main.cpp
-stats.h
-/cygdrive/d/Documents/RIT/C++/Homework-1/stats.h
-algorithm
--
-iostream
--
-
 /cygdrive/d/Documents/RIT/C++/Homework-1/stats.cpp
 stats.h
 /cygdrive/d/Documents/RIT/C++/Homework-1/stats.h
