@@ -11,26 +11,50 @@ double average(int x, int y, int z)
     return (sum / 3);
 }
 
-int median(int x, int y, int z)
+int median(int x, int y, int z, int* sortedMin, int* sortedMax)
 {
-    if (x<y) {          // 2 comparisons (lucky)
-        if (y<z)            // order is x, y, z
+    if (x<y) {  // 2 comparisons (lucky)
+        if (y<z)
+        { // order is x, y, z
+            *sortedMin = x;
+            *sortedMax = z;
             return y;
-        else {          // 3 comparisons
-            if (x < z)      // order is x, z, y
+        }
+        else {  // 3 comparisons
+            if (x < z)
+            { // order is x, z, y
+                *sortedMin = x;
+                *sortedMax = y;
                 return z;
-            else            // order is z, x, y
+            }
+            else
+            { // order is z, x, y
+                *sortedMin = z;
+                *sortedMax = y;
                 return x;
+            }
         }
     } else {
-        if (z < y)        // 2 comparisons (lucky) // order is z, y, x
+        if (z < y)
+        { // 2 comparisons (lucky) // order is z, y, x
+            *sortedMin = z;
+            *sortedMax = x;
             return y;
+        }
         else
-        {          // 3 comparisons
-            if (z > x)      // order is y, x, z
+        { // 3 comparisons
+            if (z > x)
+            { // order is y, x, z
+                *sortedMin = y;
+                *sortedMax = z;
                 return x;
-            else            // order is y, z, x
+            }
+            else
+            { // order is y, z, x
+                *sortedMin = y;
+                *sortedMax = x;
                 return z;
+            }
         }
     }
 }

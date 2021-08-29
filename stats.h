@@ -29,7 +29,7 @@ double average(int x, int y, int z);
  * @param z - 3rd unique integer
  * @return  - Median of the integers
  */
-int median(int x, int y, int z);
+int median(int x, int y, int z, int* sortedMin, int* sortedMax);
 
 /**
  * 
